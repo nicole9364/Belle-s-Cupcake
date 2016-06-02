@@ -1,0 +1,147 @@
+/* Navbar 
+================================ */
+.navbar-default {border-color: transparent;background-color: #FFCCC3;font-size: 180%;}
+.navbar-default .navbar-brand {font-family: 'Dancing Script', sans-serif; Helvetica, Arial, color: #FFCCC3;}
+/*.navbar-default .navbar-brand {font-family: 'Catamaran', sans-serif; Helvetica, Arial, color: #FFCCC3;}*/
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {color: #FFCCC3;}
+.navbar-default .navbar-collapse {border-color: rgba(255,255,255,.02);}
+.navbar-default .navbar-toggle {border-color: transparent;background-color: transparent;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: transparent;}
+.navbar-default .nav li a {font-family: 'Dancing Script', sans-serif; Helvetica, Arial, sans-serif;font-weight: 500;letter-spacing: 2px;color: #FFF;white-space: nowrap;}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {outline: 0;color: #555555;}
+.nav>li>a:focus, .nav>li>a:hover {text-decoration: none;background-color: transparent;}
+.navbar-default .nav-justified>.active>a {border-radius: 0;color: #555555;background-color: transparent;}
+.navbar-default .nav-justified>.active>a:hover, .navbar-default .nav-justified>.active>a:focus {color: #555555;	background-color: transparent;}
+
+@media(min-width:768px) {
+.navbar-default {padding: 15px 0;border: 0;background-color: #FFCCC3;color: #FFF;-webkit-transition: padding .3s;-moz-transition: padding .3s;transition: padding .3s;}
+.navbar-default .navbar-brand {font-size: 2em;-webkit-transition: all .3s;-moz-transition: all .3s;transition: all .3s;}
+.navbar-default .nav-justified>.active>a {border-radius: 3px;}
+.navbar-default.navbar-shrink {
+	/*padding: 10px 0; Can be activated to shrink the navbar when page is scrolled */
+	background-color: #FFCCC3;color: #FFF;}
+.navbar-default.navbar-shrink .navbar-brand {font-size: 1.5em;}
+}
+@media (max-width: 767px) {
+.nav > li > a {position: relative;display: block;padding:5px 15px;}
+.navbar-default .navbar-brand {visibility: hidden;}
+
+}
+@media(min-width:768px) {
+.nav > li > a {position: relative;display: block;padding:10px;}
+
+
+
+/* Carousel Adjustments
+================================ */
+html, body {height: 100%;}
+.carousel, .item, .active {height: 100%; }
+.carousel-inner {height: 100%;}
+.fill { width: 100%;
+height: 100%;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size:cover;
+background-size: cover;
+-o-background-size:cover; }
+
+
+
+/* Sections Global Styles
+================================ */
+
+section {padding: 200px 0;}
+section h2.section-heading {margin-top: 0;margin-bottom: 15px;font-size: 350%; font-weight: bold; ;font-family: 'Dancing Script', cursive; text-transform: uppercase;}
+section h3.section-subheading {text-transform: none;font-family: 'Dancing Script', sans-serif; Helvetica, Arial, sans-serif;font-size: 30px;font-weight: 400;  }
+#description {margin-top: 6%;}
+
+
+/* Colour Accents 
+================================ */
+
+.pink-accent {color: #FFCCC3}
+.white-accent {color: #FFF}
+.dark-accent {color: #363636;}
+.dark-pink-accent {color:#FF3377;}
+
+/* Gallery
+================================ */
+/*#gallery { margin:50px; }*/
+#gallery .gallery-filter-area{margin-top: 5%;}
+#gallery .gallery-filter-area{margin-bottom:2%}
+#gallery .gallery-filter li{text-decoration: none; display: inline-block; border: solid; border-color: #FF3377;text-transform: uppercase;padding: 5px;}
+#gallery .gallery-filter li a{text-decoration: none}
+#gallery .gallery-filter li:hover{background-color: #FFCCC3; border-color: #FFCCC3;}
+#gallery .gallery-filter li.active{background-color: #FFCCC3; border-color: #FFCCC3; text-decoration: none;}
+#gallery .gallery-items{margin:-8px;-webkit-transition:all .6s ease;transition:all .6s ease;-webkit-transition-delay:.6s;transition-delay:.6s}
+#gallery .single-item{display:block;width:25%;padding:8px;float:left;position:relative}
+#gallery .single-item a{display:block;-webkit-transition:none!important;transition:none!important}
+#gallery .single-item:hover img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+#gallery .single-item:hover .gallery-content{opacity:1;filter:alpha(opacity=100)}
+.gallery-image{position:relative;width:100%;overflow:hidden;background:#fed136}
+#gallery .gallery-image img{max-width:inherit;width:100%;-webkit-transition:all .45s ease-out;transition:all .45s ease-out;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+
+#gallery .modal-open .modal { }
+#gallery .modal-dialog {margin: 10px auto;width:80%;}
+
+
+/* Contact
+================================ */
+form {}
+.form-group #message{height: 180px;}
+
+/*********   
+Maginific Popup Adjustments
+*********/
+@media (min-width: 768px) {
+.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {margin-left: 25px;    border-right: 0px solid #3F3F3F !important;}
+.mfp-arrow-right:before,.mfp-arrow-right .mfp-b {border-left: 0px solid #3F3F3F !important;}
+}
+
+/* Menu
+================================ */
+.menubox{width:300px;background: #FFCCC3; margin-left: auto;margin-right: auto; }
+#cta-boxes {padding-top : 80px;}
+.hovercta-bg img{padding:50px;padding-bottom: 20px;}
+.menubox h2{text-transform: uppercase;}
+.menubox a:hover{text-decoration: none;}
+    
+.shopping-items {margin-top: 4em;}
+.shopping-items .shopping-item {margin-top: 2em;}
+    
+
+/* ModalContent
+================================ */
+.modal-title{font-family: 'Dancing Script';font-weight: bold}
+/*.my-modal-popup {   width:800em;}*/
+    .modal-body { height: 25em; }
+    .modal-body img{height:300px; width:300px; }
+
+
+    
+/* Shop
+================================ */
+    
+#shop .single-item{display:block;width:25%;padding:8px;float:left;position:relative}
+#shop .single-item a{display:block;-webkit-transition:none!important;transition:none!important}
+
+
+/* Footer
+================================ */
+/*#footer {margin-top: 0; left: 0;bottom: 0;height: 100px;width: 100%;background-color: #504D50;}*/
+#footer {text-align: left;background: #363636;color: #FFF; height: 100px; width: 100%; }
+#footer #footerleft { margin-top: 15px; margin-top: 1px 0; }
+#footer #footerright {background: #363636;text-align: left;color: #FFF; width:300px;padding-top: 15px; }
+/*#footer #footerleft { margin-top: 15px;width:140px;float:left; margin-left:50px;margin-top: 1px 0;}*/
+/*#footer #footerright {background: #363636;text-align: center;color: #FFF; margin-left:600px;width:300px;padding-top: 15px; }*/
+#footerright .input-group-addon{width: 50px;}
+
+
+/* Social Buttons 
+================================ */
+
+ul.list-inline-social-buttons {margin-bottom: 0;text-align: left; padding-left: 0em;}
+ul.list-inline-social-buttons li {padding-right:8px;display: inline; text-align: center;}
+ul.list-inline-social-buttons li  a{ width: 30px;height: 30px;border-radius: 100%;font-size: 15px;line-height: 30px;outline: 0px none;color: #FFF;	background-color: #222;	-webkit-transition: all .3s;-moz-transition: all .3s;	transition: all .3s;}
+ul.list-inline-social-buttons li a:hover, ul.list-inline-social-buttons li a:focus, ul.list-inline-social-buttons li a:active {background-color: #ffc0cb; text-decoration: none;}

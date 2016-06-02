@@ -1,0 +1,20 @@
+<!--<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="css/belle-cupcake.css" rel="stylesheet">
+    </head>
+    -->
+<div class="modal-header" >
+            <h3 class="modal-title">{{cupcake.name}}</h3>
+        </div>
+        <div class="modal-body" >
+            
+            <div class="productimg">
+                <img ng-src="{{cupcake.img}}">
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="ok()">Add to Cart</button>
+            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>
+
